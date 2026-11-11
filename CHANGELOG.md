@@ -5,6 +5,11 @@ All notable changes to SpoolmanSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.2] - 2026-11-11
+
+### Added
+- Discovery and naming for the H3C's nine-tray AMS 3H unit. All nine trays are discovered and sorted 1-9, the unit keeps its own "AMS 3H" device type (stable id 33) instead of being mislabelled "AMS 1", and both the display-name label ("AMS 3H Tray N") and the upstream index-based alias ("AMS 33 Tray N") resolve to the same tray.
+
 ## [2.0.1] - 2026-11-10
 
 > Updating from 1.6.x? Follow the 2.0.0 upgrade note below as well.
